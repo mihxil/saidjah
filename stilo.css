@@ -32,3 +32,6 @@ span.noto span.ned:before {
 span.noto span.ned:after {
     content: ") ";
 }
+span.noto span.mal {
+    display: none;
+}
