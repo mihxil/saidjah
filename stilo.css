@@ -1,8 +1,34 @@
 @import url(../stilo.css);
 
 body.multatuli {
+
     background: white;
-    margin-left: auto;
+    margin-left: 3em;
     margin-right: auto;
     max-width: 50em;
+}
+body.multatuli p {
+    padding-bottom: 0ex;
+    padding-top: 0ex;
+}
+
+span.noto {
+    color: #999;
+    display: block;
+    float: right;
+    width: 200px;
+    margin-right: -220px;
+    clear: right;
+}
+span.noto span.kapo {
+    color: #393;
+}
+span.noto span.kapo:after {
+    content: ": ";
+}
+span.noto span.ned:before {
+    content: " (";
+}
+span.noto span.ned:after {
+    content: ") ";
 }
