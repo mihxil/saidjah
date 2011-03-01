@@ -35,3 +35,6 @@ span.noto span.ned:after {
 span.noto span.mal {
     display: none;
 }
+span.noto a {
+    color: #77a;
+}
