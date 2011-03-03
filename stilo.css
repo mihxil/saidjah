@@ -10,30 +10,3 @@ body.multatuli p {
     padding-bottom: 0ex;
     padding-top: 0ex;
 }
-
-span.noto {
-    color: #999;
-    display: block;
-    float: right;
-    width: 200px;
-    margin-right: -220px;
-    clear: right;
-}
-span.noto span.kapo {
-    color: #393;
-}
-span.noto span.kapo:after {
-    content: ": ";
-}
-span.noto span.ned:before {
-    content: " (";
-}
-span.noto span.ned:after {
-    content: ") ";
-}
-span.noto span.mal {
-    display: none;
-}
-span.noto a {
-    color: #77a;
-}
