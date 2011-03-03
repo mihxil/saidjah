@@ -6,7 +6,7 @@ all: saidjah-a4.pdf saidjah-a5.pdf saidjah-libreto.pdf
 
 
 revisio.tex: .svn
-	-svn up >/dev/null 2> /dev/null
+	-svn up >/dev/null
 	date  --rfc-3339=date | tr -d "\n" > revisio.tex
 	svn info |  grep Revision | awk '{print " r" $$2}' >> revisio.tex
 
