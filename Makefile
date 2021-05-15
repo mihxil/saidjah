@@ -1,5 +1,5 @@
-TARGETS=saidjah-a4.pdf saidjah-a5.pdf saidjah-libreto.pdf
+TARGETS=saidjah-a4.pdf saidjah-a5.pdf saidjah-libreto.pdf saidjah.epub
 PAGES=28
 
 
-include ../libro.mk
+include html2latex/libro.mk
