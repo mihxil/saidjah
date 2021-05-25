@@ -6,6 +6,8 @@
 /*.aux
 /*.epub
 /*.xdv
+/*.fls
+/*.fdb_latexmk
 /.idea/
 /*-epub.tex
 /*-a4.tex
