@@ -1,9 +1,11 @@
 /revisio.tex
+/revisio.txt
 /*.pdf
 /*.out
 /*.log
 /*.aux
 /*.epub
+/*.xdv
 /.idea/
 /*-epub.tex
 /*-a4.tex
